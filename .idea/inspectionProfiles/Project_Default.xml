@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="1327" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="datetime.date.*" />
+          <option value="int.between" />
+          <option value="str.ilike" />
+          <option value="int.in_" />
+          <option value="str.label" />
+          <option value="int.desc" />
+          <option value="tgb.tgBot.models.Profile.objects" />
+          <option value="tgb.tgBot.models.Profile.DoesNotExist" />
+          <option value="app.tbot.models.BotConfig.objects" />
+          <option value="pyngrok.ngrok.NgrokTunnel.replace" />
+          <option value="app.customer.models.TelegramUser.objects" />
+          <option value="app.customer.models.DeepLinks.objects" />
+          <option value="app.customer.models.TelegramUser.DoesNotExist" />
+          <option value="app.tbot.models.AdminSettings.objects" />
+          <option value="app.tbot.models.Statuses.objects" />
+          <option value="app.tbot.views.customer" />
+          <option value="app.tbot.models.AdminModel.objects" />
+          <option value="app.tbot.models.AdminModel.DoesNotExist" />
+          <option value="app.tbot.models.Party.objects" />
+          <option value="app.tbot.models.TelegramUser.objects" />
+          <option value="app.tbot.models.TelegramUser.DoesNotExist" />
+          <option value="app.tbot.models.Party.DoesNotExist" />
+          <option value="app.tbot.models.ProfileModel.objects" />
+          <option value="app.tbot.models.PointsModel.objects" />
+          <option value="app.tbot.models.RequestsProfilesBuyer.objects" />
+          <option value="app.tbot.models.ProfileModel.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
